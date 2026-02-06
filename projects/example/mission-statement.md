@@ -33,4 +33,4 @@
 - **导师辅导**：每周至少一小时
 
 ---
-*源起之道支持｜Supported by Upstream Labs*
+*Powered by Upstream Labs | 源起之道实验室驱动*

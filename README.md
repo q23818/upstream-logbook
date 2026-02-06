@@ -27,4 +27,4 @@
 **请各项目营员在初始化目录后，自行更新本表信息**
 
 ---
-*源起之道支持｜Supported by Upstream Labs*
+*Powered by Upstream Labs | 源起之道实验室驱动*

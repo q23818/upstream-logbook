@@ -46,3 +46,5 @@
 * **连接符**：单词之间推荐使用中横线 `-` 连接。
 * **示例**：`2026-02-06-ai-native-decision-log.md`。
 
+---
+*Powered by Upstream Labs | 源起之道实验室驱动*
