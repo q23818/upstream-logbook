@@ -41,4 +41,4 @@
 - **后续行动**：[需要谁去执行什么任务]
 
 ---
-*Powered by Upstream Labs | 源起之道实验室驱动*
+*Upstream Logbook | Powered by Upstream Labs*

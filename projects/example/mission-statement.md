@@ -33,4 +33,4 @@
 - **导师辅导**：每周至少一小时
 
 ---
-*Powered by Upstream Labs | 源起之道实验室驱动*
+*Upstream Logbook | Powered by Upstream Labs*
