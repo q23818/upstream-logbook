@@ -16,20 +16,21 @@
 ## 3. 仓库架构规划 
 ```text
 /
-├── README.md                        # 愿景、规则、10 项目看板
-├── methods-and-tools/               # [公共] 通用方法论与工具
+├── README.md                         # 愿景、规则、10 项目看板
+├── methods-and-tools/                # [公共] 通用方法论与工具
 │   ├── repository-build-process.md  # 仓库构建过程决策记录 (本文档)
-│   ├── community-incentives.md     # 专题：社区激励机制
-│   ├── user-research-logic.md      # 用户调研的逻辑与方法
-│   └── platform-operation.md       # 全平台运营与内容分发策略
-├── shared-resources/                # [公共] 共享资源池（媒体、合作伙伴、通用脚本）
-├── projects/                        # [项目区] 10 个项目的目录
-│   ├── example/                    # 目录模板
-│   │   ├── mission-statement.md   # 任务书核心目标与交付物汇总
+│   ├── community-incentives.md      # 专题：社区激励机制
+│   ├── user-research-logic.md       # 用户调研的逻辑与方法
+│   └── platform-operation.md        # 全平台运营与内容分发策略
+├── shared-resources/                 # [公共] 共享资源池（媒体、合作伙伴、通用脚本）
+├── projects/                         # [项目区] 10 个项目的目录
+│   ├── example/                     # 目录模板
+│   │   ├── mission-statement.md    # 任务书核心目标与交付物汇总
 │   │   ├── logs/                   # 决策日志、连接性工作、努力过程
-│   │   └── retrospectives/        # 阶段性复盘、改进与交付物跟踪
 │   │   ├── report/                 # 周度/月度工作报告 (量化达成)
-│   ├── [your-project-name]/        # 您的项目目录（同上结构）， 营员按此结构初始化个人项目目录
+│   │   ├── resources/              # 调研反馈、BP 草案、付费意向书、媒体文件等静态资源
+│   │   └── retrospectives/         # 阶段性复盘、改进与交付物跟踪
+│   ├── [your-project-name]/         # 您的项目目录（同上结构）， 营员按此结构初始化个人项目目录
 │   └── ...
 └── scripts/                         # 自动化工具，用于看板数据汇总
 ```
@@ -44,7 +45,8 @@
 * **初始化**: 复制 projects/example/ 目录下的内容到您的project-name对应的目录下
 * **全小写**：除 `README.md` 外，所有目录和文件使用全小写。
 * **连接符**：单词之间推荐使用中横线 `-` 连接。
+* **时间戳前缀**：建议文件名以日期开头，方便追溯。
 * **示例**：`2026-02-06-ai-native-decision-log.md`。
 
 ---
-*Powered by Upstream Labs | 源起之道实验室驱动*
+*Upstream Logbook | Powered by Upstream Labs*

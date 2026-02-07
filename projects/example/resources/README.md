@@ -2,7 +2,6 @@
 # 资源存放指南 (resources guide)
 
 > **说明**：本目录用于存放项目过程中的静态资源。所有非文本类的“努力证明”与“资产”均应在此留存。
-> 存放本地调研报告、BP 草案、付费意向书
 
 
 ## 1. 关键商业资产清单 (Asset Checklist)
@@ -25,7 +24,7 @@
     * 示例：
     1. **付费意向书**：`2026-02-06-paid-intent-letter.pdf`
     2. **付费意向书**：`2026-02-06-letter-of-intent-company-name.pdf`
-    3. **用户反馈留**：`2026-02-06-user-interview-feedback.pdf`。
+    3. **用户意见反馈**：`2026-02-06-user-interview-feedback.pdf`。
     4. **本地调研报告**：`2026-02-06-user-research-report.pdf`
     5. **BP 草案**：`2026-02-06-business-plan-draft-v1.pptx`
 
