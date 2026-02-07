@@ -2,7 +2,6 @@
 # 社区传播与全平台运营体系 (Community & Outreach)
 
 > **使命**：通过全平台矩阵，将本项目的成果转化为可触达的全平台商业影响力，确保深度内容与视频分发的高质量落地。
-> 这个文档现在包含了**完整的目录树展示**和针对 V2EX 等平台的**精准定位**。
 
 ---
 
@@ -43,14 +42,16 @@ mkdir -p projects/example/community-and-outreach/community-management/im-wechat-
 mkdir -p projects/example/community-and-outreach/community-management/global-discord-tg
 
 # 5. Web 资产
-mkdir -p projects/example/community-and-outreach/web-assets/github-org-docs-homepage
-mkdir -p projects/example/community-and-outreach/web-assets/docs-homepage
+mkdir -p projects/example/community-and-outreach/web-assets/github
+mkdir -p projects/example/community-and-outreach/web-assets/docs
+mkdir -p projects/example/community-and-outreach/web-assets/homepage
 
 
 # 补充之前遗漏的社交与社群细分目录
 
 ```
 
+---
 
 ## 3. 物理目录结构 (Directory Tree)
 
@@ -73,17 +74,21 @@ community-and-outreach/
 │   ├── im-wechat-feishu/           # 国内社群 (高效协作/通知)
 │   └── global-discord-tg/          # 海外社群 (DAO 属性/社区文化)
 └── web-assets/                     # 官方 Web 资产同步: GitHub (Robius Org), Docs, Homepage
-    └── github-org-docs-homepage/   # 核心资产持久化
+    ├── docs/                        # 官方docs
+    ├── homepage/                    # 官方homepage
+    └── github/                      # github
 ```
+
+---
 
 ## 4. 目录结构与职能定义
 
 ### 📂 [platform-matrix/](./platform-matrix/) (跨平台文案矩阵)
 用于存放针对不同平台特性微调后的稿件分身。
-- **[social-media/](./platform-matrix/social-media/)**：
+- **[social-content/](./platform-matrix/social-content/)**：
     - **小红书/即刻**：侧重“高信息密度卡片”与“情绪共鸣”，必须包含 5-8 个标签。
-    - **X (Twitter)/Medium/V2EX**：海外分发重点，侧重“技术简洁性”与“开源价值观”。
-- **[developer-communities/](./platform-matrix/developer-communities/)**：
+    - **X (Twitter)/Medium**：海外分发重点，侧重“技术简洁性”与“开源价值观”。
+- **[tech-communities/](./platform-matrix/tech-communities/)**：
     - **掘金/CSDN/思否/开源中国**：深度技术长文，必须包含代码块、架构图。
 
 ### 📂 [video-scripts/](./video-scripts/) (短视频与直播脚本)
@@ -98,6 +103,7 @@ community-and-outreach/
 - 记录 **GitHub Discussions/Docs/Homepage** 的同步记录。
 - 重点解决：如何将碎片化的日志整理为结构化的官方文档。
 
+---
 
 ## 5. 核心平台运营策略 (Strict Guidance)
 
@@ -116,14 +122,15 @@ community-and-outreach/
 ### C. 视频平台 (B站, 视频号, YouTube)
 
 * **策略**：
-* **B站/YouTube**：侧重 5-10 分钟的深度 Demo 演示或技术架构讲解。
 * **视频号**：侧重 1 分钟内的项目 Milestone 剪辑，适合社交转发。
+* **B站**：侧重 5-10 分钟的深度 Demo 演示或技术架构讲解，善用弹幕互动与私域转发。
+* **YouTube**：侧重全球流量，5-10 分钟的深度 Demo 演示或技术架构讲解，必须配备英文标题与 CC 字幕，注重长尾 SEO 效果。
 
 ### D. 社群管理 (微信, 飞书, Discord, TG)
 
 * **策略**：
-* **微信/飞书**：核心在于“温控”，用于发布即时公告和引导用户提交 Bug/Feature。
-* **Discord/TG**：侧重建立“共建者文化”，通过频道分类管理不同模块的反馈。
+* **微信/飞书**：核心在于“温控”，强即时交互，用于发布即时公告和引导用户提交 Bug/Feature、解答营员疑问。
+* **Discord/TG**：侧重建立“社区共建者文化”，利用频道隔离不同的技术模块，通过 Role 机制激励核心贡献者。
 
 ### E. 官方 Web 资产 (GitHub, Docs, Homepage)
 
@@ -134,24 +141,17 @@ community-and-outreach/
 
 ## 6. 内容流转全自动化流程 (The Pipeline)
 
-1. **统一源文件**：存放在 `platform-matrix/` 的 Markdown 稿件作为 Source of Truth。
-2. **分发跟踪**：强制要求使用 UTM 标签，通过 `scripts/` 统计各平台回流数据。
-
-1. **源头提取**：从 `logs/` 或 `resources/` 提取原始素材。
-2. **多模态加工**：同步产出长文、短视频脚本、社群推文。
-3. **数据反馈**：通过 UTM 标签追踪回流至 GitHub 的转化率。
-
-1. **输入层**：从 `logs/` 提取决策关键点，从 `resources/` 提取 Demo 录屏或截图。
+1. **输入层**：从 `logs/` 提取决策关键点，从 `resources/` 提取 Demo 录屏或截图，`platform-matrix/` 的 Markdown 稿件作为 Source of Truth。
 2. **加工层**：
-    - **长文加工**：由技术决策记录转化为 3000 字左右的技术深度博文。
+    - **长文加工**：由技术决策记录同步转化为 3000 字左右的技术深度博文、短视频脚本、社群推文。
     - **视频加工**：提取 Demo 核心操作，配以语音讲解，生成 3 分钟内的短视频。
 3. **分发层**：利用各平台 API 或分发工具，按“技术社群 -> 社交媒体 -> 官方 Web”的顺序分发。
-4. **反馈层**：抓取各平台阅读/点赞数据，反哺至 `report/` 周报中。
+4. **反馈层**：抓取各平台阅读/点赞数据，通过 UTM 标签追踪回流至 GitHub 的转化率，反哺至 `report/` 周报中。
 
 
-## 8. 跟踪机制
-所有分发链接必须携带 UTM 参数，以便在全自动化流程中识别流量来源。
-- 格式示例：`https://project-site.com/?utm_source=juejin&utm_medium=article&utm_campaign=launch`
+## 7. 跟踪机制
+* 所有分发链接必须携带 UTM 参数，以便在全自动化流程中识别流量来源。
+* 格式示例：`https://project-site.com/?utm_source=juejin&utm_medium=article&utm_campaign=launch`
 
 ---
 
