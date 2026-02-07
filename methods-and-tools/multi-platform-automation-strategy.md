@@ -18,5 +18,8 @@
 - **统一链接管理**：使用带参数的短链接跟踪各平台转化率。
 - **数据汇总**：通过自动化脚本抓取 github star、知乎阅读、b站播放，汇总至 `scripts/dashboard`。
 
+
+---
+
 *Upstream Logbook | Powered by Upstream Labs*
 
