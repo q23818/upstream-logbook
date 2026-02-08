@@ -37,4 +37,12 @@
 | 国际化选型争议复盘 | X (Twitter) | 低 | 待领取 |
 
 ---
+
+## 待分发任务池 (Content Backlog)
+*从项目 `logs/` 中提取的、待加工的“弹药”。一旦被 `daily-planner.md` 领取则标记为进行中。*
+
+- [ ] **素材ID: LOG-001**：关于 [技术点] 的深度选型对比。 (状态: 待加工)
+- [ ] **素材ID: RES-002**：[资源名] 的实时演示视频录屏。 (状态: 待提取)
+
+---
 *Upstream Logbook | Powered by Upstream Labs*
