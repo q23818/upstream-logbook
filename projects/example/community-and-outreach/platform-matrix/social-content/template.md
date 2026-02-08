@@ -6,5 +6,7 @@
     - **x/twitter 版 (精炼/钩子)**：[280 字符以内，包含 hook 和 link]
     - **v2ex/medium 版 (专业/长文)**：[注重背景交代，强调开源价值]
 
+---
+
 *Upstream Logbook | Powered by Upstream Labs*
 

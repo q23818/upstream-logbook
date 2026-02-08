@@ -8,6 +8,8 @@
 - **新功能/日志发布**：`【项目动态】[标题] + 核心变动简述 + [GitHub 链接]`
 - **社群提问引导**：针对不同平台的反馈搜集话术。
 
+---
+
 *Upstream Logbook | Powered by Upstream Labs*
 
 

@@ -11,5 +11,7 @@
 - **触发机制**：当 `report/` 或 `logs/` 出现重大进展时，触发内容加工。
 - **同步校验**：确保 Web 端链接不失效，且所有引用指向本项目仓库的持久化地址。
 
+---
+
 *Upstream Logbook | Powered by Upstream Labs*
 
