@@ -8,9 +8,8 @@
 ## 🛠️ 使用说明
 1. **环境准备**：确保本地已安装 Python 3.x。
 2. **运行命令**：
-   ```bash
-   python utm_gen.py <目标URL> <平台名> <项目名>
-
+```bash
+python utm_gen.py <目标URL> <平台名> <项目名>
 ```
 
 3. **参数规范**：
