@@ -1,13 +1,13 @@
 
 # 🚀 Example Project 执行指挥中心
 
-> **项目定位**：[此处填入本项目的一句话核心目标，例如：Makepad 渲染引擎的商业化路径探索]  
+> **定位**：[此处填入本项目的一句话核心目标，例如：Makepad 渲染引擎的商业化路径探索]  
 > **使命**：通过全平台矩阵，将本项目的成果转化为可触达的全平台商业影响力，确保深度内容与视频分发的高质量落地。  
 
 ---
 
 ## 🧭 全局入口 (Dashboard)
-*点击下方链接直接进入执行页面，禁止在目录中盲目翻找。*
+*请营员自行修改下方url，方便点击链接直接进入执行页面。*
 
 * **[📈 动态看板 (GitHub Projects)](https://github.com/你的用户名/你的仓库名/projects)** —— 查看任务流动状态（Todo/Doing/Done）。
 * **[🎫 任务工单 (GitHub Issues)](https://github.com/你的用户名/你的仓库名/issues)** —— 领取新任务、提交草稿、进行技术评审。
@@ -20,14 +20,14 @@
 
 | 目录/文件 | 职能描述 | 核心成果/产出物 |
 | :--- | :--- | :--- |
-| **`daily-planner.md`** | **唯一调度中枢**。管理待领任务池与每日认领。 | 每日进度、阻塞风险记录 |
-| **`community-and-outreach/`** | **分发与成果台账**。存放分发策略与数据统计。 | **`distribution-log.md` (核心台账)** |
-| **[`publishing-standards.md`](../../methods-and-tools/publishing-standards.md)** | **发布标准**。定义全平台分发策略与分发检查清单。 | **各平台调性与 Checklist** |
-| **`mission-statement.md`** | **项目宪章**。定义项目终局目标、原则与价值观。 | 项目共识、底线原则 |
-| **`logs/`** | **研发过程资产**。记录技术选型、决策逻辑。 | Decision Logs, Tech Notes |
-| **`resources/`** | **多模态素材库**。存放录屏、配图、Demo 源码。 | 原始素材、分发辅助资产 |
-| **`report/`** | **阶段性产出**。向实验室或外部提交的正式报告。 | 深度分析、结项总结 |
-| **`retrospectives/`** | **复盘档案**。记录项目结束后的经验与教训。 | 复盘报告、方法论迭代 |
+| **`daily-planner.md`** | **唯一调度中枢**：管理待领任务池与每日认领 | 每日进度、阻塞风险记录 |
+| **`community-and-outreach/`** | **分发与成果台账**：存放分发策略与数据统计 | **`distribution-log.md` (核心台账)** |
+| **[`publishing-standards.md`](../../methods/publishing-standards.md)** | **发布标准**：定义全平台分发策略与分发检查清单 | **各平台调性与 Checklist** |
+| **`mission-statement.md`** | **项目宪章**：定义项目终局目标、原则与价值观 | 项目共识、底线原则 |
+| **`logs/`** | **研发过程资产**：记录技术选型、决策逻辑、连接性工作 | Decision Logs, Tech Notes |
+| **`resources/`** | **多模态素材库**：存放录屏、配图、Demo 源码 | 原始素材、分发辅助资产 |
+| **`report/`** | **阶段性产出**：向实验室或外部提交的正式报告 | 深度分析、结项总结 |
+| **`retrospectives/`** | **复盘档案**：记录项目结束后的经验与教训 | 复盘报告、方法论迭代 |
 
 ---
 

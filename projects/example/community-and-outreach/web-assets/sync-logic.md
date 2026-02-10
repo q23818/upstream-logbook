@@ -4,7 +4,7 @@
 
 ## 1. 同步路径
 - **GitHub Discussions**：由 `community-and-outreach/` 下的深度长文转化，重点记录社区共识。
-- **项目 Docs (Robius)**：由 `methods-and-tools/` 或项目内部的技术规范同步，确保文档权威性。
+- **项目 Docs (Robius)**：由 `methods/` 或项目内部的技术规范同步，确保文档权威性。
 - **Homepage (官网)**：由 `resources/` 中的视觉资产与核心 Milestone 组成，作为对外窗口。
 
 ## 2. 自动化流程 (Pipeline)

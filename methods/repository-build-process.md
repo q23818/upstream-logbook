@@ -17,11 +17,13 @@
 ```text
 /
 ├── README.md                         # 愿景、规则、10 项目看板
-├── methods-and-tools/                # [公共] 通用方法论与工具
+├── tools/                            # [公共] 工具
+├── methods/                          # [公共] 通用方法论
 │   ├── repository-build-process.md  # 仓库构建过程决策记录 (本文档)
 │   ├── community-incentives.md      # 专题：社区激励机制
-│   ├── user-research-logic.md       # 用户调研的逻辑与方法
-│   └── platform-operation.md        # 全平台运营与内容分发策略
+│   ├── user-survey-method.md        # 用户调研的逻辑与方法
+│   ├── content-pipeline.md          # 全平台自动化运营架构 (Architecture)
+│   └── publishing-standards.md      # 多平台运营与技术文章分发指南
 ├── shared-resources/                 # [公共] 共享资源池（媒体、合作伙伴、通用脚本）
 ├── projects/                         # [项目区] 10 个项目的目录
 │   ├── example/                     # 目录模板

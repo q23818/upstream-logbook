@@ -2,12 +2,12 @@
 
 > **定位**：记录本项目外宣内容的具体去向与回流数据及反馈，谢绝理论描述，仅记录实操流水。  
 > **原则**：无数据不登记，无 UTM 不算数。  
-> 执行前请务必对齐 [通用运营指南](../../../methods-and-tools/publishing-standards.md)。  
+> 执行前请务必对齐 [通用运营指南](../../../methods/publishing-standards.md)。  
 
 ## 1. 执行前检查清单 (Checklist)
 - [ ] **资产核验**：原始录屏/截图已按规范存入本地 `./resources/` 目录。
 - [ ] **文案微调**：已针对 V2EX（极客味）、小红书（视觉化）等平台完成稿件分身。
-- [ ] **链路注入**：发布链接已按照 [通用运营指南](../../../methods-and-tools/publishing-standards.md) 规范拼接了正确的 UTM 参数。
+- [ ] **链路注入**：发布链接已按照 [通用运营指南](../../../methods/publishing-standards.md) 规范拼接了正确的 UTM 参数。
 - [ ] **资产存盘**：最终发布稿的 Markdown 原件已存入 `./platform-matrix/` 对应子目录。
 - [ ] [每日执行看板 (Daily Planner)](../daily-planner.md)
 

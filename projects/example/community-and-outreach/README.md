@@ -81,8 +81,8 @@ community-and-outreach/
 
 ## 4. 核心执行入口 (Quick Links)
 
-* **【操作指南】通用运营标准**：[publishing-standards.md](../../../methods-and-tools/publishing-standards.md) (各平台怎么发、发哪里的标准)
-* **【自动化流程】**：[content-pipeline.md](../../../methods-and-tools/content-pipeline.md) (了解 ai 如何辅助生成稿件)
+* **【操作指南】通用运营标准**：[publishing-standards.md](../../../methods/publishing-standards.md) (各平台怎么发、发哪里的标准)
+* **【自动化流程】**：[content-pipeline.md](../../../methods/content-pipeline.md) (了解 ai 如何辅助生成稿件)
 * **【原始素材】项目弹药库**：[resources/](../resources/) (引用原始录屏、截图、意向书原件)
 * **【撰稿模板】标准草稿格式**：[template-content-draft.md](./template-content-draft.md) (新建稿件请基于此模板)
 * **【数据记录】发布流水账**：[distribution-log.md](./distribution-log.md) (发布后立即在此登记 URL 及 UTM 数据，用于数据追踪)
