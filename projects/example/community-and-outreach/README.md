@@ -17,6 +17,13 @@ community-and-outreach/
 │   │   ├── juejin                 # 国内技术综合平台 (重 SEO/教程)
 │   │   ├── segmentfault           # 国内技术综合平台 (重 SEO/教程)
 │   │   ├── medium/                # 海外技术阵地 (重价值传递/Geek 属性)
+│   │   ├── reddit/                # 海外技术阵地 (重价值传递/Geek 属性)
+│   │   ├── chinaunix.net/         # 国内开源技术社区
+│   │   ├── 51cto.com/             # 国内开源技术社区
+│   │   ├── cnblogs.com/           # 国内技术博客平台：硬核的纯技术博客平台
+│   │   ├── Dev.to/                # 国际版掘金
+│   │   ├── Hacker News/           # 全球极客的圣地
+│   │   ├── Product Hunt/          # 全球新产品首发的最高殿堂
 │   │   └── reddit/                # 海外技术阵地 (重价值传递/Geek 属性)
 │   └── social-content/             # 社交与内容平台 (传播性/共鸣): 公众号, 小红书, 知乎, X
 │       ├── wechat/                 # 深度长文与行业思考

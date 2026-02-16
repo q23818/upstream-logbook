@@ -24,7 +24,8 @@
 │   ├── user-survey-method.md        # 用户调研的逻辑与方法
 │   ├── content-pipeline.md          # 全平台自动化运营架构 (Architecture)
 │   └── publishing-standards.md      # 多平台运营与技术文章分发指南
-├── shared-resources/                 # [公共] 共享资源池（媒体、合作伙伴、通用脚本）
+├── resources/                        # [公共] 共享资源池（媒体、合作伙伴、通用脚本）
+├── tutorials/                        # [公共] 教程
 ├── projects/                         # [项目区] 10 个项目的目录
 │   ├── example/                     # 目录模板
 │   │   ├── mission-statement.md    # 任务书核心目标与交付物汇总
